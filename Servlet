@@ -26,7 +26,7 @@ public class New extends HttpServlet {
 		}else {
 			printWriter.println("Enrollment", "170010116014");
 		}
-		ss.setAttribute("Enrollment", "170010116014");
+		ss.setAttribute("Enrollment", "170010116010");
 		response.sendRedirect("New1.jsp");
 	}
 }
